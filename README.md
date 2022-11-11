@@ -4,9 +4,9 @@ This repository contains the Teensyduino code for running an [AOgmaNeo](https://
 
 To use, you need a Teensy 4.1, and a micro-SD card to store agents (and a host PC for running the game environment).
 
-Video recording of the agent playing off the Teensy:
+Recording of the agent playing off the Teensy:
 
-![Video](./media/teensypong.webm)
+![GIF](./media/teensypong.gif)
 
 Image of the actual microcontroller used:
 
