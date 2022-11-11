@@ -16,9 +16,11 @@ Needed libraries for the Python host code:
 
 Load the Teensyduino code onto the Teensy using the [Teensyduino addon for Arduino](https://www.pjrc.com/teensy/teensyduino.html). Insert a micro-SD card in the FAT32 format with some starting checkpoints for AOgmaNeo (this repository includes a trained checkpoint under the saves/ directory, just copy the files in there onto the SD card.
 
-Power on the Teensy, and wait 4 seconds. Then start the Python script [Pong.py](./Pong.py). The agent should be playing Pong from the Teensy, while continuing to learn further!
+Power on the Teensy, and wait 4 seconds. Then start the Python script [Pong.py](./Pong.py). The agent should be playing Pong from the Teensy, while continuing to learn further directly on the microcontroller!
 
 ## Additional Info
+
+This agent uses [AOgmaNeo](https://github.com/ogmacorp/AOgmaNeo), a biologically-inspired "Non-Deep Learning" online/incremental machine learning system. Unlike Deep Learning, it does not rely on the backpropagation algorithm, or dense differentiable representations, or i.i.d. sampling.
 
 The version of AOgmaNeo included in this repository has been modified slightly for compatibility. It is also based on the branch `ultralightf_faster3_multisom` from the AOgmaNeo repository.
 
